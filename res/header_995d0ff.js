@@ -1,0 +1,1 @@
+define("haokan:widget/pc/home/header/header",function(){function a(){var a=d.scrollTop(),o=e.hasClass("fixed");a>600?o||e.addClass("fixed"):o&&e.removeClass("fixed")}var e=$(".header-wrap");$("a",e).scrollto();var d=$(window).scroll(a);a()});

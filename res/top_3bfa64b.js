@@ -1,0 +1,1 @@
+define("haokan:widget/pc/home/top/top",function(){if($(".top .btn2").hover(),$.browser.msie&&$.browser.version<10){var e=2e3,t=$(".top .screen:not(:first-child)"),o=t.length;t.each(function(t){$(this).delay(e*(o-t)).animate({opacity:0,left:"-100%"})})}});

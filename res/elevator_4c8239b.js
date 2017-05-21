@@ -1,0 +1,1 @@
+define("haokan:widget/pc/home/elevator/elevator",function(){function o(){r.scrollTop()>600?e.css("display","block"):e.css("display","")}if(!($.browser.msie&&$.browser.version<7)){var e=$(".elevator-wrap");$(".gotop",e).scrollto();var r=$(window).scroll(o);o()}});
