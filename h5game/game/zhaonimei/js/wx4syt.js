@@ -1,1 +1,1 @@
-document.addEventListener("WeixinJSBridgeReady",function(){if(window.WeixinJSBridge){var a=WeixinJSBridge.invoke;WeixinJSBridge.invoke=function(){arguments[2]=function(){window.location.href="http://game.vbaitong.com"},a.apply(WeixinJSBridge,arguments)}}});
+document.addEventListener("WeixinJSBridgeReady",function(){if(window.WeixinJSBridge){var a=WeixinJSBridge.invoke;WeixinJSBridge.invoke=function(){arguments[2]=function(){window.location.href="https://weibo.com/canking666"},a.apply(WeixinJSBridge,arguments)}}});
