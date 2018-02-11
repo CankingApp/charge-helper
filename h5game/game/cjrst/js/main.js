@@ -62,7 +62,7 @@ var WelComeScene = function (a, b, c) {
 	a.setAnchorPoint(0.5, 0.5);
 	a.x = 485;
 	a.y = 850;
-	d.addChild(a);
+	
 	a.on("mousedown", function (a) {
 		IS_TOUCH && a.nativeEvent instanceof MouseEvent || (this.scaleY = this.scaleX = 0.95);
 	}, a);
