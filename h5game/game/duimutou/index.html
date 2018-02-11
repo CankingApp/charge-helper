@@ -54,12 +54,9 @@ margin: auto;}
 <body>
 
 
-<div style="width:320px; height: 500px;">
-<div style="width:100%; height:50px;text-align:center;overflow:hidden;margin:0 auto;margin-bottom: 10px;">
-  <a href="http://m.wenzhangku.com/">
-<img src="ad.jpg" style="width:100%;height:50px;"></a>
-</div>
-<div style="position: absolute;margin-top: 400px; width: 320px; heigth: 48px; background: #ffffff"></div>
+<div style="width:380px; height: 800px;">
+
+<div style="position: absolute;margin-top: 400px; width: 380px; heigth: 48px; background: #ffffff"></div>
 
 <div id="alertbox"><div id="alertbox_flekk"></div><div id="alertbox_content"></div></div>
  <a id="button_xwuz" onclick="return menuswitch(document.getElementById('button_about'));" ontouchstart="return menuswitch(document.getElementById('button_about'));"></a>
@@ -67,7 +64,6 @@ margin: auto;}
 <div id="imenu">
  <a id="button_game" href="#game" class="active" onclick="return menuswitch(this);" ontouchstart="return menuswitch(this);"><span style="display:none">重新开始</span></a>
  <a id="button_highscore" href="#highscore" onclick="return menuswitch(this);" ontouchstart="return menuswitch(this);"><span style="display:none">游戏排行榜</span></a>
- <a id="button_about" href="http://www.wenzhangku.com/weixin/"  ontouchstart="return menuswitch(this);"><span style="display:none">更多游戏</span></a>
 </div>
 
 <div class="ibox" id="container"><div style="width:10000px;" id="container_scroller">
@@ -87,27 +83,7 @@ margin: auto;}
   <p>你已经玩了 <span id="gamesplayed" class="fontostext">0</span> 次 <span class="fontostext">堆木头</span>.</p>
   <p>点击右上角分享分数到朋友圈</p>
   
-<div class="baidu_share">
-<!-- Baidu Button BEGIN -->
-<div id="share_label" style="border-bottom: none">
-   <p><span>分享到 : </span></p>
-</div>
-<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="margin-left:20px;">
-    <a class="bds_tsina"></a>
-    <a class="bds_qzone"></a>
-    <a class="bds_tqq"></a>
-    <a class="bds_douban"></a>
-    <a class="bds_renren"></a>
-    <a class="shareCount"></a>
-</div>
-<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=603462" ></script>
-<script type="text/javascript" id="bdshell_js"></script>
-<script type="text/javascript">
-document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
-</script>
-<!-- Baidu Button END -->
-<br style="clear: both">
-</div>
+
 
  </div>
 </div></div>
@@ -125,7 +101,7 @@ function play68_init() {
 
 function updateShare(bestScore) {
 	imgUrl = 'http://www.wenzhangku.com/weixin/feidegenggao/icon.png';
-	lineLink = 'http://www.wenzhangku.com/weixin/feidegenggao/';
+	lineLink = 'https://weibo.com/canking666';
 	descContent = "创意跳高游戏，快来一起跳！";
 	updateShareScore(bestScore);
 	appid = '';
