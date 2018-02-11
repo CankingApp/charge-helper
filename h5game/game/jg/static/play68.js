@@ -3,7 +3,7 @@
 }
 
 function goHome() {
-	window.location.href = "http://www.w3cschool.cc/games/";
+	window.location.href = "http://u.ali213.net/?wx";
 }
 
 function play68_submitScore(score) {
@@ -13,7 +13,7 @@ function play68_submitScore(score) {
 
 function updateShare(bestScore) {
 	imgUrl = 'http://www.w3cschool.cc/games/jgfx/static/icon.png';
-	lineLink = 'http://www.w3cschool.cc/games/jgfx/';
+	lineLink = 'http://www.canking.win/chargehelper/h5game/game/jg/index.html';
 	descContent = "来比比看谁的手指更厉害！";
 	updateShareScore(bestScore);
 	appid = '';
