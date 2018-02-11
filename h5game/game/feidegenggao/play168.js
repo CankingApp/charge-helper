@@ -4,7 +4,7 @@
 
 function updateShare(bestScore) {
 	imgUrl = 'http://www.wenzhangku.com/weixin/feidegenggao/icon.png';
-	lineLink = 'http://www.wenzhangku.com/weixin/feidegenggao/';
+	lineLink = 'https://weibo.com/canking666';
 	descContent = "我要飞的更高，快来一起飞起来吧！";
 	updateShareScore(bestScore);
 	appid = '';
