@@ -4,7 +4,7 @@ function play68_init() {
 }
 
 function goHome() {
-	window.location.href = HOME_PATH;
+	window.location.href = "http://u.ali213.net/?wx";
 }
 
 function play68_submitScore(score) {
@@ -14,7 +14,7 @@ function play68_submitScore(score) {
 
 function updateShare(bestScore) {
 	imgUrl = 'http://app.46465.com/html5/zuqiu/soccermoveicon.png';
-	lineLink = 'http://app.46465.com/html5/zuqiu';
+	lineLink = 'http://www.canking.win/chargehelper/h5game/game/zuqiu/index.html';
 	descContent = "快跟我一起用手指指点足球！";
 	updateShareScore(bestScore);
 	appid = '';
