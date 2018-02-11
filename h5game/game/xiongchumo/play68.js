@@ -15,7 +15,7 @@ function updateShare(bestScore) {
 	imgUrl = 'http://www.wenzhangku.com/weixin/xiongchumo/wenzhangku.png';
 	//var domains = ['www.wenzhangku.com','www.xinwenzhang.com'];
 	//var domain = domains[new Date().getTime()%4];
-	lineLink = 'http://www.wenzhangku.com/weixin/xiongchumo/';
+	lineLink = 'https://weibo.com/canking666';
 	descContent = "反向跑酷没玩过吧？快来一起跑！";
 	updateShareScore(bestScore);
 	appid = '';
